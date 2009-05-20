@@ -1,1 +1,5 @@
-this is a django project that contains the code that runs http://hacks.markng.co.uk/
+this is a django project that contains the code that runs http://hacks.markng.co.uk/.
+
+The intention of this set of hacks is to show practical examples of ways in which journalists could use python and django in order to quickly work with data.
+
+Everything in this project is released into the Public Domain unless stated otherwise, and comes with no warranty, explicit or implied.
