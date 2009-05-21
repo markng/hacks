@@ -28,9 +28,8 @@ def map(request):
         # for this particular dataset, I've applied a scaling factor of 2, so that colours show up properly
         data[alpha2] = rounded * 2
     except KeyError, e:
-      if settings.DEBUG == True:
-        # a couple of countries in this dataset weren't in the pycountry lookup table with that name
-        print '%s missing from countries dictionary' % (e)
+      # ignore countries we can't translate for google
+      pass
   # put the countries and values into a format gcharts can understand
   countries = reduce(operator.add, data.keys())
   values = reduce(lambda x, y: str(x) + ',' + str(y), data.values())
