@@ -1,4 +1,6 @@
-this is a django project that contains the code that runs http://hacks.markng.co.uk/.
+this is a django project that contains the code that runs http://hack.markng.co.uk/.
+
+The latest version of this can be found at http://github.com/markng/hacksforhacks/tree/master .
 
 The intention of this set of hacks is to show practical examples of ways in which journalists could use python and django in order to quickly work with data.
 
